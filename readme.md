@@ -1,2 +1,2 @@
 ## Authors:
-### Tabalina & Talaman
+### Tabalina, Jayrold & Talaman, Yasmine
