@@ -17,21 +17,19 @@
 
     <div>
         <h1>Output</h1>
-        <p id="nameout"></p>
-        <p id="messageout"></p>
+        <p id="nameout">Guest Name:</p>
+        <p id="messageout">Message:</p>
     </div>
 
     <script>
+        
         function submit(){
             let name = document.getElementById('name').value;
             let message = document.getElementById('message').value;
 
             document.getElementById('nameout').innerHTML = "<b> Guest Name: </b>"+ name;
-            document.getElementById('messageout').textContent ="Message: "+ message;
-
-
-
-        }
+            document.getElementById('messageout').innerHTML ="<b>Message: </b>"+ message;
+        };
 
     </script>
     
