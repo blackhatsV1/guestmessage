@@ -7,10 +7,11 @@
 </head>
 <body>
     <div>
+        <p></p>
         <h1>Enter Data</h1>
-        <span><label>Guest Name <input type="text" id="name"></label></span>
+        <span><label>Guest Name: <input type="text" id="name"></label></span>
         
-        <span><label>Message <input type="text" id="message"></label></span>
+        <span><label>Message: <input type="text" id="message"></label></span>
         <button onclick="submit()">send</button>
     </div>
 
@@ -25,7 +26,7 @@
             let name = document.getElementById('name').value;
             let message = document.getElementById('message').value;
 
-            document.getElementById('nameout').textContent = "Guest Name: "+ name;
+            document.getElementById('nameout').innerHTML = "<b> Guest Name: </b>"+ name;
             document.getElementById('messageout').textContent ="Message: "+ message;
 
 
